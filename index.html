@@ -109,22 +109,29 @@
     <h2>Certifications</h2>
     <div class="about__content">
       <div class="about__text">
-        <!-- Replace the below paragraph with info about yourself -->
+        
       <h3>Certiport</h3>
-      <p> IT Specialist - Python (October 2024) 
-      </p>
-      <p>Security, Compliance, and Identity Fundamentals (October 2023) </p>
+      <p> IT Specialist - Python (October 2024) <button onclick="showPdf1()">View PDF</button></p>
+      
+<script>
+  function showPdf1() {
+    var url = '/home/hryan/Documents/site/PythonCert.pdf'; // replace with your PDF file URL
+    window.open(url, '_blank');
+  }
+</script>
+      <p>Security, Compliance, and Identity Fundamentals (October 2023) <button onclick="showPdf2()">View PDF</button> </p>
       </div>
-
+<script>
+  function showPdf2() {
+    var url = '/home/hryan/Documents/site/Security_Compliance_and_Identity_Fundamentals.pdf'; // replace with your PDF file URL
+    window.open(url, '_blank');
+  }
+</script>     
     </div>
   </div>
 </section> 
 
-
-
-
-
- <!-- ***** Skills ***** -->
+    <!-- ***** Skills ***** -->
 
 <section class="about" id="about">
   <div class="row">
