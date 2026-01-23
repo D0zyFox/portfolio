@@ -635,3 +635,18 @@ body:not(.user-is-tabbing) a:focus {
   border-radius: 7.5px;
   font-size: 4rem;
 }
+
+button {
+  padding: 0.7rem 0.9rem;
+  background: #ff570fc4;
+  border-radius: 7.5px;
+  font-size: 2rem;
+  color: #FFFFFF; /* white */
+}
+
+button:hover {
+  padding: 0.7rem 0.9rem;
+  background: #ff570fc4;
+  border-radius: 7.5px;
+  font-size: 2rem;
+}
